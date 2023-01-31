@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: cluster
 spec:
+  deployKubeProxy: false
   clusterNetwork:
   - cidr: {{ .PodCIDR }}
     hostPrefix: 23
